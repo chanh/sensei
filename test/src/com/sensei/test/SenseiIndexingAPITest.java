@@ -58,6 +58,13 @@ public class SenseiIndexingAPITest extends TestCase {
 		private boolean isSkip(){
 			return uid==-2;
 		}
+		
+		private String name;
+		
+		@Meta
+		private String getName() {
+		  return name;
+		}
 	}
 	
 
